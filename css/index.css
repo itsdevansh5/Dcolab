@@ -1,26 +1,31 @@
 *{
     margin:0;
     padding:0;
-    background-color:azure
 }
 main{
-    display:flex;
-    flex-direction: column;
+    background-image:url("img1.jpg");
+    background-size: cover;
+    min-height:80vh;
+    
     
 
 }
 #navbar{
-    height:60px;
+    height:10vh;
     background-color:deeppink
 }
 #signinform{
     position:absolute;
-    border:2px solid black;
     height:50vh;
     width:50vw;
     display:flex;
     flex-direction:column;
     justify-content: center;
+    align-items: center;
+    top:20%;
+    left:25%;
+    backdrop-filter:blur(10px);
+
     
 }
 #bt1{
